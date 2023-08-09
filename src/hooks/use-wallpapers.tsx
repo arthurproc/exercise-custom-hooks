@@ -1,5 +1,3 @@
-import { useContext } from 'react';
-import WallpaperContext from '../context/wallpaper-context';
 import { Wallpaper } from '../types';
 
 type UseWallpapersReturn = {
