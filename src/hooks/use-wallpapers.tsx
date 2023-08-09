@@ -7,8 +7,4 @@ type UseWallpapersReturn = {
   removeWallpaper: (id: number) => void;
 };
 
-export default function useWallpapers(): UseWallpapersReturn {
-  const { wallpapers, removeWallpaper } = useContext(WallpaperContext);
-
-  return { wallpapers, removeWallpaper };
-}
+export default function useWallpapers(): UseWallpapersReturn {}
