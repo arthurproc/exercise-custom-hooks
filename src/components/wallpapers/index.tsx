@@ -1,9 +1,9 @@
 import { useContext } from 'react';
 import styles from './wallpapers.module.css';
-import WallpaperContext from '../../context/wallpaper-context';
+import useWallpapers from '../../hooks/use-wallpapers';
 
 function Wallpapers() {
-  const { removeWallpaper, wallpapers } = useContext(WallpaperContext);
+  const { removeWallpaper, wallpapers } = useWallpapers();
 
   return (
     <>
