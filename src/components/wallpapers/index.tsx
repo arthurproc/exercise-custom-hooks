@@ -1,4 +1,3 @@
-import { useContext } from 'react';
 import styles from './wallpapers.module.css';
 import useWallpapers from '../../hooks/use-wallpapers';
 
